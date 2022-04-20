@@ -49,7 +49,7 @@ const Movies: FC<movie> = ({ data }) => {
 
 export const getStaticProps: GetStaticProps = async () => {
   const popularMovies = await fetch(
-    'https://imdb-api.com/en/API/MostPopularMovies/k_hd2hitvi'
+    'https://imdb-api.com/en/API/MostPopularMovies/k_t0zj84io'
   )
   const data = await popularMovies.json()
   return {
